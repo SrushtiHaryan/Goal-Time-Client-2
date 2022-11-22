@@ -22,7 +22,7 @@ function App() {
         <Routes>
           {/* <Route path="/" element={<Homepage />} /> */}
           <Route path="/pomodoro-timer" exact element={<PomodoroTimer/>} />
-          <Route path="https://goal-time-server.onrender.com/" exact element={<Login/>} />
+          <Route path="/" exact element={<Login/>} />
           <Route path="/pomodoro-form" exact element={<PomodoroConfig/>} />
           {/* <Route path="/home" exact element={<Home/>} /> */}
           <Route path="/login" exact element={<Login />} />
